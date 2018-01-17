@@ -259,7 +259,7 @@ static int busyCallback(void* context, int numberOfTries) {
     if (numberOfTries > 10) {
         return NO;
     }
-    usleep(1000*numberOfTries);
+    usleep(2000 * (1 << numberOfTries)); // Up to 4092 ms.
     return YES;
 }
 
