@@ -1,3 +1,5 @@
+⚠️ This repo is obsolete.  It was used in Couchbase Lite iOS / macOS 1.x.
+
 # FMDB
 
 This is an Objective-C wrapper around SQLite: http://sqlite.org/
